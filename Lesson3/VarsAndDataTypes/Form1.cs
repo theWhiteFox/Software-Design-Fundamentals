@@ -19,10 +19,15 @@ namespace VarsAndDataTypes
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string firstTextBox = textBox1.Text;
-            string secondTextBox = textBox2.Text;
+            int firstTextBox = 0;
+            int secondTextBox = 0;
+            int result = 0;
 
-            label3.Text = firstTextBox + " " + secondTextBox;
+            firstTextBox = int.Parse(textBox1.Text);
+            secondTextBox = int.Parse(textBox2.Text);
+
+            result = firstTextBox + secondTextBox;
+            label3.Text = result.ToString();
         }
     }
 }

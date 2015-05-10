@@ -3,4 +3,7 @@
 ###Lesson 1
 Hello World
 ###Lesson 2
-Design Basics
+Design
+###Lesson 3
+Add input, first and name
+Add two numbers, calculator
