@@ -63,13 +63,23 @@ namespace IterationSelection
             //        break;
             //}
 
-            // arrays
-            // 1. sized array, set the size
-            string[] myArray = new string[2];
-            myArray[0] = "SteJ";
-            myArray[1] = "Steph";
-            // myArray[2] = "Stevo"; // causes an out of bounds exception
-            MessageBox.Show(myArray[1]);
+            //// arrays
+            //// 1. sized array, set the size
+            //string[] myArray = new string[2];
+            //myArray[0] = "SteJ";
+            //myArray[1] = "Steph";
+            //// myArray[2] = "Stevo"; // causes an out of bounds exception
+            //MessageBox.Show(myArray[1]);
+
+            // 2. intialized array [0] = Ste, [1] = SteJ, [2] = Stevo, [3] = Steph
+            string[] myArray = {"Ste", "SteJ", "Stevo", "Steph"};
+            // MessageBox.Show(myArray[1]); // test array
+
+            // create temp var with value of ncikname
+            foreach (var nickname in myArray)
+            {
+                MessageBox.Show(nickname);
+            }
         }
     }
 }
