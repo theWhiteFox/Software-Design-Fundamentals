@@ -47,21 +47,29 @@ namespace IterationSelection
             //    MessageBox.Show("You picked Ste");
             //} // end else
 
-            // 'switch' statement
-            switch (listBox1.SelectedItem.ToString())
-            {
-                case "Foobar":
-                    MessageBox.Show("You picked Foobar");
-                    break;
+            //// 'switch' statement
+            //switch (listBox1.SelectedItem.ToString())
+            //{
+            //    case "Foobar":
+            //        MessageBox.Show("You picked Foobar");
+            //        break;
 
-                case "Bazquirk":
-                    MessageBox.Show("You picked Bazquirk");
-                    break;
+            //    case "Bazquirk":
+            //        MessageBox.Show("You picked Bazquirk");
+            //        break;
 
-                default:
-                    MessageBox.Show("You picked something else");
-                    break;
-            }
+            //    default:
+            //        MessageBox.Show("You picked something else");
+            //        break;
+            //}
+
+            // arrays
+            // 1. sized array, set the size
+            string[] myArray = new string[2];
+            myArray[0] = "SteJ";
+            myArray[1] = "Steph";
+            // myArray[2] = "Stevo"; // causes an out of bounds exception
+            MessageBox.Show(myArray[1]);
         }
     }
 }
