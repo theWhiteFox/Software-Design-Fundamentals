@@ -7,3 +7,5 @@ Design
 ###Lesson 3
 Add input, first and name<br>
 Add two numbers, calculator
+###Lesson 4
+Basic If and if else
