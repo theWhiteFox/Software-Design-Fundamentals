@@ -17,7 +17,7 @@ namespace IterationSelection
             InitializeComponent();
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             //// 1. basic 'if' statement 
             //if (comboBox1.Text == "SteJ")
@@ -30,22 +30,38 @@ namespace IterationSelection
             //if (comboBox1.Text == "Steph")
             //    MessageBox.Show("You picked Steph"); // one line of code after ‘if’ 
 
-            // 3. nested 'if' statement
-            if (comboBox1.Text != "Ste") // if not equal to Ste false go to else 
+            //// 3. nested 'if' statement
+            //if (comboBox1.Text != "Ste") // if not equal to Ste false go to else 
+            //{
+            //    if (comboBox1.Text == "SteJ")
+            //    {
+            //        MessageBox.Show("You picked SteJ."); // SteJ is selected 
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("I'm not sure who you picked."); // Stevo or Steph selected 
+            //    } 
+            //} // end if 
+            //else
+            //{
+            //    MessageBox.Show("You picked Ste");
+            //} // end else
+
+            // 'switch' statement
+            switch (listBox1.SelectedItem.ToString())
             {
-                if (comboBox1.Text == "SteJ")
-                {
-                    MessageBox.Show("You picked SteJ."); // SteJ is selected 
-                }
-                else
-                {
-                    MessageBox.Show("I'm not sure who you picked."); // Stevo or Steph selected 
-                } 
-            } // end if 
-            else
-            {
-                MessageBox.Show("You picked Ste");
-            } // end else
+                case "Foobar":
+                    MessageBox.Show("You picked Foobar");
+                    break;
+
+                case "Bazquirk":
+                    MessageBox.Show("You picked Bazquirk");
+                    break;
+
+                default:
+                    MessageBox.Show("You picked something else");
+                    break;
+            }
         }
     }
 }
