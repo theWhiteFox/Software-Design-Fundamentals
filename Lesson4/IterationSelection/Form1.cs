@@ -72,7 +72,7 @@ namespace IterationSelection
             //MessageBox.Show(myArray[1]);
 
             // 2. intialized array [0] = Ste, [1] = SteJ, [2] = Stevo, [3] = Steph
-            string[] myArray = {"Ste", "SteJ", "Stevo", "Steph"};
+            string[] myArray = { "Ste", "SteJ", "Stevo", "Steph" };
             // MessageBox.Show(myArray[1]); // test array
 
             //// create temp var with value of ncikname
@@ -103,15 +103,37 @@ namespace IterationSelection
             //    }
             //}
 
-            // combine for and if on array 
-            for (int i = 0; i < myArray.Length; i++)
+            //// combine for with if on myArray 
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    if (myArray[i] == "Stevo")
+            //    {
+            //        MessageBox.Show("Stevo Found");
+            //    }
+            //}
+
+            // combine for with switch on listbox 
+            for (int i = 0; i < listBox1.SelectedItems.Count; i++)
             {
-                if (myArray[i] == "Stevo")
+                switch (listBox1.SelectedItems[i].ToString())
                 {
-                    MessageBox.Show("Stevo Found");
+                    case "Foobar":
+                        MessageBox.Show("Foobar");
+                        break;
+
+                    case "Bazquirk":
+                        MessageBox.Show("Bazquirk");
+                        break;
+
+                    case "Widgets":
+                        MessageBox.Show("Widgets");
+                        break;
+
+                    case "Gadgets":
+                        MessageBox.Show("Gadgets");
+                        break;
                 }
             }
-            
         }
     }
 }
