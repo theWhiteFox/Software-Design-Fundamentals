@@ -93,15 +93,25 @@ namespace IterationSelection
             //}
             //MessageBox.Show("the final value was: " + i.ToString());
 
-            // for and foreach loop
-            for (int i = 0; i < myArray.Length;)        
+            //// for and foreach loop
+            //for (int i = 0; i < myArray.Length;)        
+            //{
+            //    // temp value nickname
+            //    foreach (var nickname in myArray)
+            //    {   
+            //        MessageBox.Show(i++ + " " + nickname);
+            //    }
+            //}
+
+            // combine for and if on array 
+            for (int i = 0; i < myArray.Length; i++)
             {
-                // temp value nickname
-                foreach (var nickname in myArray)
-                {   
-                    MessageBox.Show(i++ + " " + nickname);
+                if (myArray[i] == "Stevo")
+                {
+                    MessageBox.Show("Stevo Found");
                 }
             }
+            
         }
     }
 }
