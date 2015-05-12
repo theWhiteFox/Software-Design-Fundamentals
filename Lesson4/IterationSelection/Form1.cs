@@ -75,10 +75,15 @@ namespace IterationSelection
             string[] myArray = {"Ste", "SteJ", "Stevo", "Steph"};
             // MessageBox.Show(myArray[1]); // test array
 
-            // create temp var with value of ncikname
-            foreach (var nickname in myArray)
+            //// create temp var with value of ncikname
+            //foreach (var nickname in myArray)
+            //{
+            //    MessageBox.Show(nickname);
+            //}
+
+            for (int i = 0; i < myArray.Length; i++)
             {
-                MessageBox.Show(nickname);
+                MessageBox.Show(i.ToString());
             }
         }
     }
