@@ -11,4 +11,7 @@ Add two numbers, calculator
 Basic if and if else statements<br>
 Switch<br>
 Arrays<br>
-Iteration statements
+Iteration statements<br>
+Foreach<br>
+For loop<br>
+While loop<br>
