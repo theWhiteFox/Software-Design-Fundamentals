@@ -72,7 +72,7 @@ namespace IterationSelection
             //MessageBox.Show(myArray[1]);
 
             // 2. intialized array [0] = Ste, [1] = SteJ, [2] = Stevo, [3] = Steph
-            //string[] myArray = {"Ste", "SteJ", "Stevo", "Steph"};
+            string[] myArray = {"Ste", "SteJ", "Stevo", "Steph"};
             // MessageBox.Show(myArray[1]); // test array
 
             //// create temp var with value of ncikname
@@ -86,12 +86,22 @@ namespace IterationSelection
             //    MessageBox.Show(i.ToString());
             //}
 
-            int i = 0;
-            while (i < int.Parse(textBox1.Text))
+            //int i = 0;
+            //while (i < int.Parse(textBox1.Text))
+            //{
+            //    i++;
+            //}
+            //MessageBox.Show("the final value was: " + i.ToString());
+
+            // for and foreach loop
+            for (int i = 0; i < myArray.Length;)        
             {
-                i++;
+                // temp value nickname
+                foreach (var nickname in myArray)
+                {   
+                    MessageBox.Show(i++ + " " + nickname);
+                }
             }
-            MessageBox.Show("the final value was: " + i.ToString());
         }
     }
 }
