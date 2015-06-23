@@ -16,5 +16,18 @@ namespace OOP
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Vehicle Car;
+            //Car = new Vehicle();
+
+            Vehicle myCar = new Vehicle(); // new keyword, break point /debug here
+            myCar.Make = "DeLorean";
+            myCar.Model = "Time Machine";
+            myCar.ElapsedMilage = 9999969;
+
+            MessageBox.Show(myCar.Make); // break point /debug here
+        }
     }
 }
