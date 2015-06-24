@@ -8,29 +8,16 @@ namespace OOP
 {
     class Vehicle
     {
-
         // defined fields
         private string _make;
         private string _model;
         private int _elapsedMilage;
 
+        // properties
         public string Make
         {
             get { return _make; }
             set { _make = value; }
-
-            // more control, filter out values using the set statement
-            //set
-            //{
-            //    if ((value == "DeLorean") || (value == "Ecto-1"))
-            //    {
-            //        _make = value;
-            //    }
-            //    else
-            //    {
-            //        _make = "not assigned";
-            //    }
-            //}
         }
 
         public string Model
@@ -44,6 +31,22 @@ namespace OOP
             get { return _elapsedMilage; }
             set { _elapsedMilage = value; }
         }
+
+        public string Drive(int kilometers)
+        {
+            _elapsedMilage += kilometers;
+
+            // could preform some additional calculations here
+            // for determining fuel consumption and wear and tear
+            // costs
+
+            // friendly string 
+            string result;
+            result = "The " + Make + " " + _model + " now has " + _elapsedMilage + " kilometers.";
+            return result;
+
+        }
     }
 }
+
 
