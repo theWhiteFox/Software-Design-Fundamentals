@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.IO;
+
 namespace ReadWriteTextFile
 {
     public partial class Form1 : Form
@@ -21,12 +23,25 @@ namespace ReadWriteTextFile
         {
             int counter = 0;
             string line;
-            System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\Stephen\Documents\VSProjects\Software-Design-Fundamentals\Lesson5\Values.txt");            
-            while((line = file.ReadLine()) != null)
+
+            try
             {
-                listBox1.Items.Add(line);
-                counter++;
+                // read in nonexistent file
+                using (StreamReader reader = new StreamReader("Values.txt"))
+                {
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        listBox1.Items.Add(line);
+                        counter++;
+                    }
+                }
             }
+            catch (FileNotFoundException ex)
+            {
+                // Write error
+                MessageBox.Show("File not found");
+            } 
+           
         }
         private void listBox1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
