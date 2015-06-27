@@ -1,71 +1,28 @@
 ﻿1. Why is C# called "C sharp"?
-The name "C sharp" was inspired by musical notation 
-where a sharp indicates that the written note should be made a semitone higher in pitch.
 
-2. Who lead architect of C#?
-Anders Hejlsberg.
+2. Who is the lead architect of C#?
 
 3. Name some characteristics of C#?  
-Some characteristics of C# are:
-Simple
-Type safe
-Flexible
-Object oriented
-Compatible
-Consistent
-Interoperable
-Modern
 
-4. Write the steps and code for a "Hello World" C# WinForm application
-To write the code for your application
-Double-click the button to add an event handler for the Button1 Click event. 
-The Code Editor will open with the insertion point placed within the event handler.
-// C#
-MessageBox.Show("Hello, World!");
+4. Write the steps and code for a "Hello World" C# WinForm application.
 
-5. Write steps to test your application
-Press F5 to run the application.
-When your application is running, click the button and verify that "Hello, World!" is shown.
-Close the Windows Form to return to Visual Studio.
+5. Write steps to test your application.
 
-6. What are C# data types and name three common data types
-integer 
-string
-Boolean
+6. What are C# data types and name three common data types?
 
 7. What are the types of comment in C#?  
-There are 3 types of comments in C#.
-Single line (//)
-Multi (/* */)
-Page/XML Comments (///).
 
 8. What are the basic concepts of object oriented programming?  
-It is necessary to understand some of the concepts used extensively in object oriented programming.
-These include:
-Objects
-Classes
-Data abstraction and encapsulation
-Inheritance
-Polymorphism
-Dynamic Binding
-Message passing.
 
 9. What is the code to open a second form?
-private void button_Click(Object sender, EventArgs e)
-{
-	// create a new instance of the Form2 class
-	Form2 myForm = new Form2();
-	
-	// show the setting form
-	myForm.Show();
-}
 
 10. Write the steps to set which of the forms appear first?
-In Program.cs
-Application.Run(new Form1())
 
 11. What is IO in System.IO;?
 
 12. What class is used to read a file in C#?
-StreamReader class
+
+13. Name some usages of the "this" keyword in C#?
+
+14. On this sheet, what line number is the word set?
 
