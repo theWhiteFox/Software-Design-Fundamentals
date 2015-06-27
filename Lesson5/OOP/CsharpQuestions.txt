@@ -25,4 +25,3 @@
 13. Name some usages of the "this" keyword in C#?
 
 14. On this sheet, what line number is the word set?
-
