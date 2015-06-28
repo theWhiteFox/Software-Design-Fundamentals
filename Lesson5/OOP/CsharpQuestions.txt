@@ -25,3 +25,16 @@
 13. Name some usages of the "this" keyword in C#?
 
 14. On this sheet, what line number is the word set?
+
+15. Write a string game, with the following items "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay", "Joffrey"
+	Write code to loop through the array. Create a pop-up messsage box to display each one of the names /items.
+
+16. 
+
+17. What is a variable (var) give a real world example of a variable?
+
+18. Create a combo with the following list of names "Arya", "Tyrion", "Yara", "Daenerys" write the code   that displays a pop-up with either "You picked Tyrion!" else "I'm not sure who you picked."
+
+19. 
+
+20. 

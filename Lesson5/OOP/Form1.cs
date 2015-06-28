@@ -22,20 +22,30 @@ namespace OOP
         private void button2_Click(object sender, EventArgs e)
         {
 
-            
+            string[] game = { "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay", "Joffrey" };
 
-            // Vehicle myCar = new Vehicle(); // new keyword, break point /debug here
-            myCar.Make = "DeLorean";
-            myCar.Model = "Time Machine";
-            myCar.ElapsedMilage = 9999969;
+            //for (int i = 0; i < game.Length; i++)
+            //{
+            //    MessageBox.Show(game[i].ToString());
+            //}
 
-            if(myCar.Make == "DeLorean")
+            foreach (var person in game)
             {
-                string myModel;
-                myModel = myCar.Model;
+                MessageBox.Show(person);
             }
 
-            MessageBox.Show(myModel);
+            // Vehicle myCar = new Vehicle(); // new keyword, break point /debug here
+            //myCar.Make = "DeLorean";
+            //myCar.Model = "Time Machine";
+            //myCar.ElapsedMilage = 9999969;
+
+            //if(myCar.Make == "DeLorean")
+            //{
+            //    string myModel;
+            //    myModel = myCar.Model;
+            //}
+
+            //MessageBox.Show(myModel);
 
             //string result;
             //result = myCar.Drive(30);

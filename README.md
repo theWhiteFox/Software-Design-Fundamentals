@@ -19,4 +19,8 @@ Two nested for loops<br>
 For with if<br>
 For with switch<br>
 ###Lesson 5
-OOP
+OOP<br>
+-read from file
+-try catch
+-QA
+-IO
