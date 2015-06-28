@@ -1,12 +1,12 @@
-﻿1. Why is C# called "C sharp"?
+﻿1. Write the steps and code for a "Hello World" C# WinForm application.
 
-2. Who is the lead architect of C#?
+2. Write steps to test your application.
 
-3. Name some characteristics of C#?  
+3. Name some characteristics of C#? 
 
-4. Write the steps and code for a "Hello World" C# WinForm application.
+4. What is a variable (var) give a real world example of a variable?
 
-5. Write steps to test your application.
+5. Who is the lead architect of C#? 
 
 6. What are C# data types and name three common data types?
 
@@ -14,7 +14,7 @@
 
 8. What are the basic concepts of object oriented programming?  
 
-9. What is the code to open a second form?
+9. What is the code to show a second form?
 
 10. Write the steps to set which of the forms appear first?
 
@@ -29,12 +29,12 @@
 15. Write a string game, with the following items "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay", "Joffrey"
 	Write code to loop through the array. Create a pop-up messsage box to display each one of the names /items.
 
-16. 
+16. Why is C# called "C sharp"?
 
-17. What is a variable (var) give a real world example of a variable?
+17. How many hours does it take to learn C#?
 
-18. Create a combo with the following list of names "Arya", "Tyrion", "Yara", "Daenerys" write the code   that displays a pop-up with either "You picked Tyrion!" else "I'm not sure who you picked."
+18. Create a comboBox with the following list of names "Arya", "Tyrion", "Yara", "Daenerys" write the code   that displays a pop-up with either "You picked Tyrion!" else "I'm not sure who you picked."
 
-19. 
+19. Why was C# developed?
 
-20. 
+20. What is a switch in C#?
