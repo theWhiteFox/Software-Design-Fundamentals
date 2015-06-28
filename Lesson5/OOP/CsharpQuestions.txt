@@ -26,7 +26,7 @@
 
 14. On this sheet, what line number is the word set?
 
-15. Write a string game, with the following items "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay", "Joffrey"
+15. Write a string array game, with the following items "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay", "Joffrey"
 	Write code to loop through the array. Create a pop-up messsage box to display each one of the names /items.
 
 16. Why is C# called "C sharp"?
