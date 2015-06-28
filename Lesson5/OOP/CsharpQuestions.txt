@@ -1,40 +1,129 @@
-﻿1. Write the steps and code for a "Hello World" C# WinForm application.
+﻿1. Write the steps and code for a "Hello World" C# WinForm application
+	To write the code for your application
+	Double-click the button to add an event handler for the Button1 Click event. 
+	The Code Editor will open with the insertion point placed within the event handler.
+	// C#
+	MessageBox.Show("Hello, World!");
 
-2. Write steps to test your application.
+2. Write steps to test your application
+	Press F5 to run the application.
+	When your application is running, click the button and verify that "Hello, World!"
+	is shown. Close the Windows Form to return to Visual Studio.
 
-3. Name some characteristics of C#? 
+3. Name some characteristics of C#?  
+	Some characteristics of C# are:
+	Simple
+	Type safe
+	Flexible
+	Object oriented
+	Compatible
+	Consistent
+	Interoperable
+	Modern
 
-4. What is a variable (var) give a real world example of a variable?
+4. What is a variable (var) give a real world example of a variable?	A variable is a value that can change. Bank account money.
+5. Who is the lead architect of C#?
+	Anders Hejlsberg.
 
-5. Who is the lead architect of C#? 
+6. What are C# data types and name three common data types
+	Data types are used everywhere in a programming language like C#. 
+	Because it's a strongly typed language, you are required to inform
+	the compiler about which data types you wish to use every time you
+	declare a variable, as you will see in the chapter about variables. 
+	In this chapter we will take a look at some of the most used data types 
+	and how they work. 
+	bool is one of the simplest data types. It can contain only 2 values - false or true. 
+	The bool type is important to
+	understand when using logical operators like the if statement. 
 
-6. What are C# data types and name three common data types?
+	int is short for integer, a data type for storing numbers without decimals. 
+	When working with numbers, int is the most commonly used data type. 
+	Integers have several data types within C#, depending on the size of the 
+	number they are supposed to store. 
+
+	string is used for storing text, that is, 
+	a number of chars. In C#, strings are immutable, 
+	which means that strings are never changed after 
+	they have been created. When using methods which 
+	changes a string, the actual string is not changed - 
+	a new string is returned instead. 
+	char is used for storing a single character. 
+
+	float is one of the data types used to store numbers which 
+	may or may not contain decimals.
 
 7. What are the types of comment in C#?  
+	There are 3 types of comments in C#.
+	Single line (//)
+	Multi (/* */)
+	Page/XML Comments (///).
 
 8. What are the basic concepts of object oriented programming?  
+	It is necessary to understand some of the concepts used extensively in object oriented programming.
+	These include:
+	Objects
+	Classes
+	Data abstraction and encapsulation
+	Inheritance
+	Polymorphism
+	Dynamic Binding
+	Message passing.
 
-9. What is the code to show a second form?
+9. What is the code to open a second form?
+	private void button_Click(Object sender, EventArgs e)
+	{
+		// create a new instance of the Form2 class
+		Form2 myForm = new Form2();
+	
+		// show the setting form
+		myForm.Show();
+	}
 
 10. Write the steps to set which of the forms appear first?
+	In Program.cs
+	Application.Run(new Form1())
 
 11. What is IO in System.IO;?
+	Input Output
 
 12. What class is used to read a file in C#?
+	StreamReader class
 
 13. Name some usages of the "this" keyword in C#?
+	To qualify members hidden by similar name
+	To have an object pass itself as a parameter to other methods
+	To have an object return itself from a method
+	To declare indexers
+	To declare extension methods
+	To pass parameters between constructors
+	To internally reassign value type (struct) value.
+	To invoke an extension method on the current instance
+	To cast itself to another type
+	To chain constructors defined in the same class
 
 14. On this sheet, what line number is the word set?
+	line number 19
 
-15. Write a string array game, with the following items "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay", "Joffrey"
-	Write code to loop through the array. Create a pop-up messsage box to display each one of the names /items.
+15.  Write a string array game, with the following items "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay",
+	"Joffrey" Write code to loop through the array and create a pop-up messsage box, to display each one of the names / items.
+            string[] game = { "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay", "Joffrey" };
+
+            for (int i = 0; i < game.Length; i++)
+            {
+                MessageBox.Show(game[i].ToString());
+            }
+
+            foreach (var person in game)
+            {
+                MessageBox.Show(person);
+            }
 
 16. Why is C# called "C sharp"?
+	The name "C sharp" was inspired from musical notation where a sharp indicates that the written note should be made a half-step higher in pitch.	This is similar to the language name of C++, where "++" indicates that a variable should be incremented by 1. The sharp symbol also resembles a ligature of four "+" symbols (in a two-by-two grid), further implying that the language is an increment of C++.
 
-17. How many hours does it take to learn C#?
-
-18. Create a comboBox with the following list of names "Arya", "Tyrion", "Yara", "Daenerys" write the code   that displays a pop-up with either "You picked Tyrion!" else "I'm not sure who you picked."
-
+17.  How many hours does it take to learn C#?		10,000 hours
+18.  Create a comboBox with the following list of names "Arya", "Tyrion", "Yara", "Daenerys" write the
+		code that displays a pop-up with either "You picked Tyrion!" else "I'm not sure who you picked."
 19. Why was C# developed?
 
 20. What is a switch in C#?
