@@ -95,5 +95,18 @@ namespace ReadWriteTextFile
                 MessageBox.Show("Cannot write");
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            StreamWriter saveFile = new StreamWriter("Names.txt");
+            foreach (var item in listBox1.Items)        
+            {
+                saveFile.WriteLine(item);
+            }
+
+            saveFile.Close();
+
+            MessageBox.Show("Names saved!");
+        }
     }
 }
