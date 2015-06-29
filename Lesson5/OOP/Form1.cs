@@ -24,10 +24,10 @@ namespace OOP
 
             string[] game = { "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay", "Joffrey" };
 
-            //for (int i = 0; i < game.Length; i++)
-            //{
-            //    MessageBox.Show(game[i].ToString());
-            //}
+            for (int i = 0; i < game.Length; i++)
+            {
+                MessageBox.Show(game[i].ToString());
+            }
 
             foreach (var person in game)
             {

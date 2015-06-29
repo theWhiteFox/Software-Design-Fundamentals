@@ -36,20 +36,18 @@ namespace ReadWriteTextFile
                     }
                 }
             }
-            catch (FileNotFoundException ex)
+            catch (FileNotFoundException)
             {
-                // Write error
+                // write error
                 MessageBox.Show("File not found");
             } 
            
         }
         private void listBox1_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            int index = this.listBox1.IndexFromPoint(e.Location);
-            if (index != System.Windows.Forms.ListBox.NoMatches)
-            {
-                MessageBox.Show(index.ToString());
-            }
+        {            
+            // get the value of the selected item
+            string name = listBox1.GetItemText(listBox1.SelectedItem);
+            MessageBox.Show(name);           
         }
     }
 }

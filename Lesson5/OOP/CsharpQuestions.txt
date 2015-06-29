@@ -21,7 +21,9 @@
 	Interoperable
 	Modern
 
-4. What is a variable (var) give a real world example of a variable?	A variable is a value that can change. Bank account money.
+4. What is a variable (var) give a real world example of a variable?
+	A variable is a value that can change. Bank account money.
+
 5. Who is the lead architect of C#?
 	Anders Hejlsberg.
 
@@ -105,7 +107,8 @@
 	line number 19
 
 15.  Write a string array game, with the following items "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay",
-	"Joffrey" Write code to loop through the array and create a pop-up messsage box, to display each one of the names / items.
+	"Joffrey" Write code to loop through the array and create a pop-up messsage box, to display each one of the names / items.
+
             string[] game = { "Arya", "Tyrion", "Yara", "Daenerys", "Ramsay", "Joffrey" };
 
             for (int i = 0; i < game.Length; i++)
@@ -121,9 +124,12 @@
 16. Why is C# called "C sharp"?
 	The name "C sharp" was inspired from musical notation where a sharp indicates that the written note should be made a half-step higher in pitch.	This is similar to the language name of C++, where "++" indicates that a variable should be incremented by 1. The sharp symbol also resembles a ligature of four "+" symbols (in a two-by-two grid), further implying that the language is an increment of C++.
 
-17.  How many hours does it take to learn C#?		10,000 hours
+17.  How many hours does it take to learn C#?
+		10,000 hours
+
 18.  Create a comboBox with the following list of names "Arya", "Tyrion", "Yara", "Daenerys" write the
-		code that displays a pop-up with either "You picked Tyrion!" else "I'm not sure who you picked."
+		code that displays a pop-up with either "You picked Tyrion!" else "I'm not sure who you picked."
+
 19. Why was C# developed?
 
 20. What is a switch in C#?
