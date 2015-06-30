@@ -1,0 +1,30 @@
+﻿Create a Hello "your name" C# program.
+
+Set up a string variable to hold the letters of the alphabet, A to G:
+
+Create a program that asks the user for an integer. if the integer is less than 10 show message "this number is too small" if the number is equal to or greater to show message "number is not big enough"
+
+Create a form that takes two strings from user and create an event that outputs the strings concatenated.
+ 
+Create a combo box with the following items Kerry, Dublin, Norfolk, Cork. When the user selects an Irish county display message "This is an Irish county" when the user selects an non Irish county display a message to the user "This is not an Irish county".
+
+Create a list box with with the following items Tennis, Swimming, Cycling, Poker. Using a switch display a message to the user if Poker is selected display a message this is not a sport for the rest of the items selected display you picked a sport.
+
+Create a sized array with 5 integer values. Using a for loop, loop through the values and display each one to the user.
+
+Create an array and initialize with the following values Kerry, Dublin, Norfolk, Cork loop through the array and display each of the values to the user.
+
+Create a program that displays a message box to the user "While statement " + index, until index is equal to ten.
+
+Create a program that creates an array of five hard-coded floating-point values, then message just the second value.
+
+Modify the above program so that it uses a foreach loop to display all the values in the array, all on one line, each number formatted to two decimal places. Hint: use the ToString() method of Double (also known as double!) to format your numbers.
+
+Set up a sized array to hold the following string values:
+	"Nina Simone (f)";
+	"Killer Mike (m)";
+	"El Producto (m)";
+	"Lauren Mayberry (f)";
+	"Gonjasufi (m)";
+	"KiloWatts (m)";
+Write a program to loop round and count how many are male vocalists and how many are female. Display your answer in a textbox or listbox.
