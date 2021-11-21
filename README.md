@@ -1,6 +1,8 @@
 # C# Software Design Fundamentals
 ## Visual Studio 2013 C# Forms
 
+[thewhitefox.ninja blog C#](https://www.thewhitefox.ninja/2021/2021-10-27-C-Sharp/)
+
 ### Lesson 1
 Hello World
 
